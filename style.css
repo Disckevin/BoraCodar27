@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 
 :root {
@@ -40,16 +39,17 @@ main {
 aside {
   align-content: center;
 }
-aside div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 aside h1 {
   color: var(--color-base-purple);
   font-size: 107px;
   text-align: center;
+}
+
+aside div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -93,7 +93,7 @@ p {
 
 /* media queries */
 
-@media (max-width: 1030px) {
+@media (max-width: 975px) {
   .app {
     grid-template-columns: 1fr;
     padding: 0 1.1rem;
